@@ -1,5 +1,6 @@
 define_actor :player do
-  has_behavior :positioned
+  has_behavior :positioned, :controlled
+
   view do
     draw do |target, x_off, y_off, z|
       x = actor.x + x_off

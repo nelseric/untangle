@@ -7,3 +7,6 @@ gem "conject"
 gem "rspec"
 gem "releasy"
 gem "rake"
+
+gem "pry"
+gem "pry-byebug"

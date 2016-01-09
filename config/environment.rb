@@ -3,6 +3,7 @@ APP_ROOT = "#{File.join(File.dirname(__FILE__),"..")}/"
 require 'yaml'
 require 'gamebox'
 require 'releasy'
+require 'pry-byebug'
 
 Gamebox.configure do |config|
   config.config_path = APP_ROOT + "config/"
